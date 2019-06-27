@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="成绩预警系统:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/_jar</output-path>
+    <root id="root">
+      <element id="archive" name="成绩预警系统.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="成绩预警系统" />
+      </element>
+      <element id="library" level="project" name="mssql-jdbc-7.2.2.jre11" />
+      <element id="library" level="project" name="adaptive" />
+      <element id="library" level="project" name="mssql-jdbc-7.2.2.jre8" />
+      <element id="library" level="project" name="javax.mail-1.6.2" />
+      <element id="library" level="project" name="itextpdf-5.5.13.1" />
+      <element id="library" level="project" name="activation-1.1.1" />
+    </root>
+  </artifact>
+</component>
