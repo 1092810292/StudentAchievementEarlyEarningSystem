@@ -6,6 +6,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TeacherInformation {
+    /**该类用于在教务系统数据库中根据班主任编号搜索班主任信息
+     * @param班主任编号
+     * @return 班主任信息表
+     */
     PreparedStatement preparedStatement = null;
     ResultSet resultSet = null;
     String name="";

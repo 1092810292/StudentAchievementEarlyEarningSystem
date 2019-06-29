@@ -1,10 +1,9 @@
-import java.sql.*;
-
-/**
- * 该类实现数据库的用户表的插入功能，搭配注册功能使用
+/**用于连接数据库，数据库管理系统使用SQL Server，用户名为sa，密码为123456，连接端口为1433，连接数据库名为教务系统
  * @author 王陆斌
  * @since JDK1.8
  */
+import java.sql.*;
+
 public class LinkSQL {
     private Connection connection = null;
     private String user="sa";

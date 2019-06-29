@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Main {
+    /**程序入口，主类，其中只有一个main方法，main是一个jvm所识别的固定名字，所以类中的main函数是由jvm所调用的，程序的固定入口。*/
     public static Connection connection = null;
     public static void main(String[] args) throws SQLException {
         LinkSQL linkSQL = new LinkSQL("教务系统");

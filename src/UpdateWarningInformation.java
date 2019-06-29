@@ -8,6 +8,7 @@ class UpdateWarningInformation {
 	Map failingCourseMap=new HashMap();
 
 	public Map classificationWarningLevels(Map subjectMap, Map subjectAttributeMap,String majorAttribute) {
+/**该类用于更新预警信息，包括学生绩点，不及格科目与预警等级，根据学生专业属性区分毕业要求*/
 
 		int fail = 0, pass = 0;
 		float GPA=0,gradePoint=0;

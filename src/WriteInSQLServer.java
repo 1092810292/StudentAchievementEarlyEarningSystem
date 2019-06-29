@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class WriteInSQLServer {
+    /**该类用于将预警信息，包括学生信息，绩点，不及格科目与预警等级等数据输入学生预警数据库
+     */
+
     public boolean write(Map studentInformationMap, Map failingCourseMap) throws SQLException {
         LinkSQL linkSQL = new LinkSQL("预警信息数据库");
         Connection connection = linkSQL.link();

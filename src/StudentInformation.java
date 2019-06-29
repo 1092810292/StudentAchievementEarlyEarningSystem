@@ -3,6 +3,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
+/**该类用于从教务系统数据库中使用SQL语言搜索学生基本信息
+ * @return 返回类型为Map
+ */
 
 public class StudentInformation {
     PreparedStatement preparedStatement = null;

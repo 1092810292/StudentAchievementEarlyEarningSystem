@@ -6,6 +6,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SubjectAttribute {
+    /**该类用于在教务系统数据库中根据学号搜索学生科目名与科目属性
+     * @param学号
+     * @return 学生科目与属性表
+     */
     PreparedStatement preparedStatement = null;
     ResultSet resultSet = null;
     String studentID="";

@@ -18,6 +18,10 @@ public class SubjectScore {
     }
 
     public Map subjectScoreQuery(){
+        /**该类用于在教务系统数据库中根据学号搜索学生科目名与该科目成绩
+         * @param学号
+         * @return 学生科目与成绩表
+         */
         for(subjectNo=1;subjectNo<11;subjectNo=subjectNo+1){
         try {
             String sql = "select 科目"+subjectNo+",成绩"+subjectNo+" from 学生信息与成绩表 where 学号 like '%"+studentID+"%'";

@@ -11,6 +11,8 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class PDF {
+    /**该类用于将预警信息，包括学生信息，绩点，不及格科目与预警等级等数据生成PDF报表
+     */
 
     public void CreatePDF(Map studentInformationMap,Map failingCourseMap) {
         int cellNameCount=0;

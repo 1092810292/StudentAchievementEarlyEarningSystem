@@ -12,6 +12,9 @@ import javax.mail.*;
 import javax.mail.internet.*;
 
 public class Email {
+    /**该类用于将生成的PDF表发送到学生与班主任的邮箱，并根据预警等级分别处理
+     */
+
     public void SendEmailAutomatically(Map studentInformationMap, Map teacherInformationMap, Map failingCourseMap, boolean student) throws MessagingException, UnsupportedEncodingException {
         // 创建邮件的发送过程中用到的主机和端口号的属性文件
         String text="";
